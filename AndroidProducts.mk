@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lineage_j7elte.mk
+    $(LOCAL_PATH)/hentai_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7elte-user \
-    lineage_j7elte-userdebug \
-    lineage_j7elte-eng
+    hentai_j7elte-user \
+    hentai_j7elte-userdebug \
+    hentai_j7elte-eng
