@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/awaken_j7elte.mk
+    $(LOCAL_PATH)/superior_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_j7elte-user \
-    awaken_j7elte-userdebug \
-    awaken_j7elte-eng
+    superior_j7elte-user \
+    superior_j7elte-userdebug \
+    superior_j7elte-eng
