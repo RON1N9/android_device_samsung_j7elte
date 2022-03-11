@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/pixys_j7elte.mk
+    $(LOCAL_PATH)/kangos_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_j7elte-user \
-    pixys_j7elte-userdebug \
-    pixys_j7elte-eng
+    kangos_j7elte-user \
+    kangos_j7elte-userdebug \
+    kangos_j7elte-eng
