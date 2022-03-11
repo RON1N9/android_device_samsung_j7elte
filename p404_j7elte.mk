@@ -20,22 +20,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
-$(call inherit-product, vendor/kangos/config/common.mk)
+$(call inherit-product, vendor/404/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 720
 
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := kangos_j7elte
+PRODUCT_NAME := p404_j7elte
 PRODUCT_DEVICE := j7elte
 PRODUCT_MODEL := SM-J700F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# Kangos Maintainer
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.kangos.maintainer=ashwani_02 \
-  ro.kangos.cpu=exynos7580
 
