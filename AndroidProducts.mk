@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/cesium_j7elte.mk
+    $(LOCAL_PATH)/lighthouse_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_j7elte-user \
-    cesium_j7elte-userdebug \
-    cesium_j7elte-eng
+    lighthouse_j7elte-user \
+    lighthouse_j7elte-userdebug \
+    lighthouse_j7elte-eng
