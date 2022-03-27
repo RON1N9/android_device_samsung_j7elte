@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lighthouse/config/common.mk)
 
 
 # Set those variables here to overwrite the inherited values.
