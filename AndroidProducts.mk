@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/lighthouse_j7elte.mk
+    $(LOCAL_PATH)/komodo_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lighthouse_j7elte-user \
-    lighthouse_j7elte-userdebug \
-    lighthouse_j7elte-eng
+    komodo_j7elte-user \
+    komodo_j7elte-userdebug \
+    komodo_j7elte-eng
