@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/colt_j7elte.mk
+    $(LOCAL_PATH)/dotfe_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_j7elte-user \
-    colt_j7elte-userdebug \
-    colt_j7elte-eng
+    dotfe_j7elte-user \
+    dotfe_j7elte-userdebug \
+    dotfe_j7elte-eng
