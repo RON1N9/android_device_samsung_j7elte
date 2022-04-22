@@ -15,9 +15,9 @@
 LOCAL_PATH := device/samsung/j7elte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/dotfe_j7elte.mk
+    $(LOCAL_PATH)/carbon_j7elte.mk
 
 COMMON_LUNCH_CHOICES := \
-    dotfe_j7elte-user \
-    dotfe_j7elte-userdebug \
-    dotfe_j7elte-eng
+    carbon_j7elte-user \
+    carbon_j7elte-userdebug \
+    carbon _j7elte-eng
