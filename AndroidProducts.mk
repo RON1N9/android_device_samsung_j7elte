@@ -20,4 +20,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     carbon_j7elte-user \
     carbon_j7elte-userdebug \
-    carbon _j7elte-eng
+    carbon_j7elte-eng
