@@ -20,12 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
 WITH_GMS := true
 WITH_GMS_MINIMAL := true
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_j7elte
+PRODUCT_NAME := crdroid_j7elte
 PRODUCT_DEVICE := j7elte
 PRODUCT_MODEL := SM-J700F
 PRODUCT_BRAND := samsung
